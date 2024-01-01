@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  header {
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+  }
+
+  
+  nav ul li {
+    display:inline ;
+    margin-right: 65px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  nav ul li :hover{
+    color: #e91e63;
+    border-bottom:#e91e63 ;
+  }
+
+
+
+  
+  .btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 3px;
+  }
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 3px;
+  }
+  
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .button{
+    color: black;
+    background-color: white;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    padding: 12px;
+    transition: all .5s;
+    border-radius: 5px;
+    font-weight: 600;
+}
+  
+
+  .log a{
+    text-decoration: none;
+    color: white;
+  }
+.social-media-icons ul li{
+    display: inline;
+    list-style: none;
+}
+.social-media-icons ul li a{
+    font-size: 1.8em;
+    color: white;
+    transition: all .2s;
+}
+/* .social-media-icons ul li a:hover{
+    font-size: 2em;
+    color: black;
+} */
+#contact {
+  color: rgb(0, 0, 0);
+  height: 210px;
+  
+}
+
+#contact .container{
+    max-height: 1000px;
+}
+
+.button:hover{
+    background: linear-gradient(to bottom right, rgba(200, 0, 0, 0.8), rgba(0, 0, 200, 0.8));
+    font-size: 600;
+    color: white;
+
+}
+.social-media-icons ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.social-media-icons ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #000000;
+  transition: all 0.3s ease;
+}
+.social-media-icons ul li a:hover {
+  color: #e91e63;
+  padding: 8px;
+  font-size: 35px;
+}
+.social-media-icons a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+  font-size: 25px;
+}
+.social-media-icons .insta:hover {
+  color: #e91e63;
+  background-color: #ffffff;
+}
+.social-media-icons .face:hover {
+  color: rgb(0, 0, 255);
+  background-color: #ffffff;
+}
+.social-media-icons .twitter:hover {
+  color: rgb(0, 177, 253);
+  background-color: #ffffff;
+}
+.social-media-icons .linked:hover {
+  color: green;
+  background-color: #ffffff;
+}

@@ -1,0 +1,242 @@
+body {
+    font-family: sans-serif;
+    background: linear-gradient(45deg, #413939, #080708);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 80px;
+    
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-family:'Times New Roman', Times, serif;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+  justify-content: space-between;
+  background-color: #212121;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.menu button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 20px;
+}
+
+.menu button.active {
+  border-bottom: 2px solid white;
+}
+
+#log{
+    position:fixed;
+}
+
+.content {
+  padding: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-gap: 20px;
+}
+
+.card {
+
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.card p {
+  margin-bottom: 10px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: black;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+
+.button:hover {
+    background: linear-gradient(to bottom right, rgba(200, 0, 0, 0.8), rgba(0, 0, 200, 0.8));
+}
+.logout-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background: black;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+    background: linear-gradient(to bottom right, rgba(200, 0, 0, 0.8), rgba(0, 0, 200, 0.8));
+}
+.login-box {
+    width: 320px;
+    background: #191919;
+    color: #fff;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.login-box h2 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* .user-box {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 1rem;
+    color: #fff;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+    border-radius: 5px;
+}
+
+.user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 1rem;
+    color: #fff;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.user-box input:focus ~ label,
+.user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #ff416c;
+    font-size: 0.8rem;
+}
+
+.submit{
+    height: 35px;
+    width:80px;
+    margin-left: 135px;
+} */
+
+.register-box {
+    width: 320px;
+    background: #191919;
+    color: #fff;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    
+}
+
+.register-box h2 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.user-box {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 1rem;
+    color: #fff;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+    border-radius: 5px;
+}
+
+.user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 1rem;
+    color: #fff;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.user-box input:focus ~ label,
+.user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #ff416c;
+    font-size: 0.8rem;
+}
+.fa-eye-slash:before {
+    content: "\f070";
+}
+
+.user-box i {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.user-box i:hover {
+    color: #ff416c;
+}
